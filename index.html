@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Soylent Recipes</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Rubik:300,700" rel="stylesheet">
+
+</head>
+
+<main>
+
+	<div class="topPanel">
+	<div class="wrapper">
+		<div class="leftPanel">
+			<div class="leftPanel__header">
+				<h1 class="leftPanel__pageTitle">Soylent Recipes</h1>
+
+				<form class="recipes">
+					<h2 class="letPanel__formTitle">Select Recipe</h2>
+					<select name="recipeOptions" class="recipesOptions">
+						<option value="none">none selected</option>
+						<option value="matchBasil">matcha + basil</option>
+						<option value="kaleBanana">kale + pineapple + banana</option>
+						<option value="nectarineThyme">nectarine + thyme + honey</option>
+						<option value="bananaMango">banana + mango + coconut</option>
+						<option value="clementineBanana">clementine + banana + vanilla</option>
+						<option value="grapeSpinach">grape + spinach + peach</option> 
+					</select>
+				</form>
+			</div>
+			<div class="leftPanel__ingredientsAndQty">
+				<h2 class= "ingredientsAndQty__title">Ingredients needed</h2>
+				<ul><li>Select an ingredient or recipe</li></ul>
+			</div>
+		</div>
+
+		<div class="results__soylentImage">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 306 854"><title>Soylent</title><desc>  Created with Sketch.</desc><g><g><path class="soylentImage" d="M289.1 740.5C285.3 733 290.3 655.6 294.1 491.9 297.8 328.2 306.6 298.2 275.3 264.4 244 230.7 237.7 180.7 232.7 163.2 227.7 145.7 225.5 141.1 232.7 135.7 240.2 130.1 242.7 119.5 237.7 107 232.7 94.5 239 93.2 240.2 89.5 241.5 85.7 240.2 30.8 240.2 20.8 240.2 10.8 227.7 7 227.7 7 215.9 3.5 200.2 4.9 187.9 4.7 151.4 4.1 113.8 2.7 77.5 7 77.5 7 65 10.8 65 20.8 65 30.8 63.7 85.7 65 89.5 66.2 93.2 72.5 94.5 67.5 107 62.5 119.5 65 130.1 72.5 135.7 79.7 141.1 77.5 145.7 72.5 163.2 67.5 180.7 61.2 230.7 29.9 264.4 -1.4 298.2 7.4 328.2 11.1 491.9 14.9 655.6 19.9 733 16.2 740.5 12.4 748-2.6 765.5 7.4 790.5 13.6 806.1 19.5 819.5 34.3 828.7 51.5 839.4 71.5 843.9 91.4 846 132 850.2 173.2 850.2 213.8 846 233.7 843.9 253.7 839.4 270.9 828.7 285.7 819.5 291.6 806.1 297.8 790.5 307.8 765.5 292.8 748 289.1 740.5"/></g></g></svg>
+		</div>
+		<div class="results__nutritionList">
+			<h2 class="nutritionList__title">Nutritional value</h2>
+			<ul><li>Select an ingredient or recipe</li></ul>
+		</div>
+	</div>
+	</div>
+
+
+		<div class="wrapper">
+			<div class="button-group filter-button-group">
+				<button data-filter="*">Show all</button>
+				<button data-filter=".fruit">Fruit</button>
+				<button data-filter=".vegetable">Vegetable</button>
+				<button data-filter=".liquid">Liquid</button>
+				<button data-filter=".flavour">Flavour</button>
+				<button data-filter=".herb">Liquid</button>
+				<button data-filter=".sweetener">Sweetener</button>
+			</div>
+		</div>
+		<div class="ingredientButtons">
+			<div class="wrapper grid">
+
+			</div>
+	</div>
+
+</main>
+<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+	<script src="js/scriptv2.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+$primaryFontFamily: "Rubik", "Helvetica", "Arial", sans-serif;
+
+
+html {
+	font-size: 20px;
+	@media (max-width: $xl){
+		font-size: 19px;
+	}
+	@media (max-width: $lg){
+		font-size: 15px;
+	}
+	@media (max-width: $md){
+		font-size: 14px;
+	}
+	@media (max-width: $sm){
+		font-size: 13px;
+	}
+	@media (max-width: $xs){
+		font-size: 13px;
+	}
+	@media (max-width: $xxs){
+		font-size: 12px;
+	}
+}
+
+
+// ------------------------------------
+  // BASE TYPOGRAPHY
+// ------------------------------------
+
+body {
+	font-family: $primaryFontFamily;
+	color: $primaryFontColor;
+}
+
+h1 {
+	font-size: 3rem;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+}
+
+li {
+	list-style: none;
+	font-size: 1.1rem;
+	display: inline;
+}
+
+.button-group button {
+	color: $primaryFontColor;
+}
+
+select {
+	font-weight: 700;
+	font-size: 1.5rem;
+}

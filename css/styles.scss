@@ -1,0 +1,39 @@
+// breakpoint variables
+$xl: 1400px;
+$lg: 1220px;
+$md: 1000px;
+$sm: 850px;
+$xs: 700px;
+$xxs: 400px;
+
+
+// GENERIC
+@import "partials/setup";
+
+// COLOURS
+@import "partials/colours";
+
+//TYPOGRAPHY
+@import "partials/typography";
+
+//LAYOUT
+@import "partials/layout";
+
+
+// html {
+// 	@media (max-width: $xl){
+// 		background: blue;
+// 	}
+// 	@media (max-width: $lg){
+// 		background: purple;
+// 	}
+// 	@media (max-width: $md){
+// 		background: orange;
+// 	}
+// 	@media (max-width: $sm){
+// 		background: yellow;
+// 	}
+// 	@media (max-width: $xs){
+// 		background: green;
+// 	}
+// }
